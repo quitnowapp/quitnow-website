@@ -1,0 +1,32 @@
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="http://quitnowapp.com/press-resources" resolutions="1x" timestamp="1455053129609">
+  <folder name="css">
+    <file name="site_global.css" crc="4106873250"/>
+    <file name="index.css" crc="446161734" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="196614522" ref="index"/>
+    <file name="museutils.js" crc="275725342" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="quitnow!---press-resources-favicon.ico" crc="21326303" ref="index"/>
+    <file name="official_logo.png" crc="423934313" seo="true" ref="index"/>
+    <file name="download_official_logo.jpg" crc="132263912" seo="true" ref="index"/>
+    <file name="pdf.png" crc="128278508" seo="true" ref="index"/>
+    <file name="pdf_flags_bg.jpg" crc="131460194" seo="true" ref="index"/>
+    <file name="flag_sp.png" crc="3914660326" seo="true" ref="index"/>
+    <file name="flag_cat.png" crc="451636177" seo="true" ref="index"/>
+    <file name="flag_en_uk.png" crc="162317696" seo="true" ref="index"/>
+    <file name="jpg.png" crc="3889928531" seo="true" ref="index"/>
+    <file name="jpg_flags_bg.jpg" crc="358119503" seo="true" ref="index"/>
+    <file name="flag_de.png" crc="315730036" seo="true" ref="index"/>
+    <file name="flag_fr.png" crc="3862625789" seo="true" ref="index"/>
+    <file name="flag_it.png" crc="49137469" seo="true" ref="index"/>
+    <file name="flag_pt_pt.png" crc="4216552972" seo="true" ref="index"/>
+    <file name="flag_ru.png" crc="363618263" seo="true" ref="index"/>
+    <file name="flag_tr.png" crc="440038963" seo="true" ref="index"/>
+    <file name="flag_he.png" crc="3771761679" seo="true" ref="index"/>
+    <file name="flag_id.png" crc="4107403794" seo="true" ref="index"/>
+    <file name="flag_pl.png" crc="3857679549" seo="true" ref="index"/>
+  </folder>
+  <file name="index.html" crc="4191345669" seo="true" mt="1455053116933" redirect="true"/>
+</manifest>

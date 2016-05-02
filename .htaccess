@@ -1,0 +1,5 @@
+RewriteEngine on
+Options +FollowSymLinks
+
+DirectoryIndex index.php
+FallbackResource /index.php
