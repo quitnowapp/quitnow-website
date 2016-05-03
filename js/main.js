@@ -285,7 +285,24 @@ $(document).ready(function() {
 	worldControlObj =  new worldControl();
 	new initAchievements($("#achiev div"), achievementsDelay);
 	new ElastiStack( $("#chatting").get(0), {
-		distDragBack : 100, 
+		distDragBack : 100,
 		distDragMax : 200
 	});
 });
+
+(function () {
+	window.addEventListener('DOMContentLoaded', function (e) {
+		var termsShow = document.getElementById('TermsShow');
+		termsShow.addEventListener('click', function (e) {
+			e.preventDefault();
+			$('.js-Terms .wrapper').load('./terms-of-service/index.html .content');
+			$('.js-Terms').addClass('show');
+		});
+		var termsHide = document.getElementById('TermsHide');
+		termsHide.addEventListener('click', function (e) {
+			e.preventDefault();
+			$('.js-Terms .wrapper').html('');
+			$('.js-Terms').removeClass('show');
+		});
+	});
+})()

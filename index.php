@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 $baseWeb = "http://quitnowapp.com/";
 
@@ -34,7 +34,7 @@ switch ($lang) {
     case 'en': $locale = "en_EN";break;
     case 'ca': $locale = "ca_ES";break;
     case 'de': $locale = "de_DE";break;
-    case 'es': $locale = "es_ES";break;  
+    case 'es': $locale = "es_ES";break;
     case 'fr': $locale = "fr_FR";break;
     case 'it': $locale = "it_IT";break;
     case 'nl': $locale = "nl_NL";break;
@@ -76,12 +76,12 @@ function getAltLinks(){
 	<title>QuitNow! - <?php t('slogan'); ?></title>
 	<meta name="description" content="QuitNow! is the best app to quit smoking. It features health statistics, achievements to help you engage and a community full of people who is quitting. Get it for free!">
 	<meta name="keywords" content="quit smoking, stop smoking">
-	
+
 	<link rel="icon" type="image/png" href="images/touch/58.png">
 	<link rel="shortcut icon" href="images/touch/58.png">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui">
-	
+
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,600,400&subset=latin,latin-ext,cyrillic,greek' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/main.css">
 	<script src="js/jquery-2.1.3.min.js"></script>
@@ -99,14 +99,14 @@ function getAltLinks(){
 	<script type="text/javascript" src="js/elastiStack.js"></script>
 
 	<script src="js/main.js"></script>
-  
+
   <meta property="og:title" content="Quitting smoking made easy!" />
   <meta property="og:site_name" content="QuitNow!"/>
   <meta property="og:url" content="http://quitnowapp.com/<?php echo $lang; ?>" />
   <meta property="og:description" content="QuitNow! is an app for smartphones to help people quit smoking." />
   <meta property="fb:app_id" content="156729571066410" />
   <meta property="og:image" content="http://quitnowapp.com/images/quitnow-facebook-share.png" />
-  
+
   <meta name="twitter:card" content="app">
   <meta name="twitter:site" content="@QuitNowApp">
   <meta name="twitter:description" content="QuitNow! is an app for smartphones to help people quit smoking.">
@@ -116,39 +116,28 @@ function getAltLinks(){
   <meta name="twitter:app:id:ipad" content="483994930">
   <meta name="twitter:app:name:googleplay" content="QuitNow!">
   <meta name="twitter:app:id:googleplay" content="com.EAGINsoftware.dejaloYa">
-  <meta name="twitter:image" content="http://quitnowapp.com/images/quitnow-twitter-share.png" />                                         
-  
-  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <meta name="twitter:image" content="http://quitnowapp.com/images/quitnow-twitter-share.png" />
+
+  <link rel="apple-touch-icon" sizes="57x57" href="images/touch/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="images/touch/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/touch/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="images/touch/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/touch/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="images/touch/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="images/touch/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="images/touch/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/touch/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="images/touch/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/touch/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="images/touch/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/touch/favicon-16x16.png">
   <link rel="manifest" href="/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="msapplication-TileImage" content="images/touch/ms-icon-144x144.png">
   <meta name="theme-color" content="#3d91e6">
 
 </head>
 <body>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-38049407-7', 'auto');
-  ga('send', 'pageview');
-
-</script>
 
 	<header>
 		<img src="images/Quitnow.svg" class="logo" alt="QuitNow!">
@@ -319,7 +308,7 @@ function getAltLinks(){
 			<div class="footer">
 				<a target="_blank" onClick="ga('send', 'event', 'Footer navigation', 'Merchandising');" href="http://store.quitnowapp.com"><?php t('footer.merchandising'); ?></a>
 				|
-				<a target="_blank" onClick="ga('send', 'event', 'Footer navigation', 'Terms of Service');" href="http://quitnowapp.com/terms-of-service/index.html"><?php t('footer.tos'); ?></a>
+				<a id="TermsShow" target="_blank" onClick="ga('send', 'event', 'Footer navigation', 'Terms of Service');" href="http://quitnowapp.com/terms-of-service/index.html"><?php t('footer.tos'); ?></a>
 				|
 				<a target="_blank" onClick="ga('send', 'event', 'Footer navigation', 'Press resources');" href="http://quitnowapp.com/press-resources/index.html"><?php t('footer.press'); ?></a>
 				<div class="powered">
@@ -330,5 +319,18 @@ function getAltLinks(){
 			</div>
 		</div>
 	</div>
+  <div class="Terms js-Terms">
+    <a id="TermsHide" href="#" class="close">X</a>
+    <div class="wrapper"></div>
+  </div>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-38049407-7', 'auto');
+    ga('send', 'pageview');
+  </script>
 </body>
 </html>
