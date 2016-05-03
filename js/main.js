@@ -298,11 +298,22 @@ $(document).ready(function() {
 			$('.js-Terms .wrapper').load('./terms-of-service/index.html .content');
 			$('.js-Terms').addClass('show');
 		});
+
 		var termsHide = document.getElementById('TermsHide');
 		termsHide.addEventListener('click', function (e) {
 			e.preventDefault();
+			hideTerms();
+		});
+
+		document.addEventListener('keyup', function(e) {
+	    if (e.keyCode == 27) {
+	      hideTerms();
+	    }
+	  });
+		
+		function hideTerms() {
 			$('.js-Terms .wrapper').html('');
 			$('.js-Terms').removeClass('show');
-		});
+		}
 	});
 })()
