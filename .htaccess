@@ -3,3 +3,6 @@ Options +FollowSymLinks
 
 DirectoryIndex index.php
 FallbackResource /index.php
+
+Redirect /download /download.php
+Redirect /download.html /download.php
