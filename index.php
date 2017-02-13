@@ -103,9 +103,23 @@ function getAltLinks(){
   <meta property="og:title" content="Quitting smoking made easy!" />
   <meta property="og:site_name" content="QuitNow!"/>
   <meta property="og:url" content="http://quitnowapp.com/<?php echo $lang; ?>" />
-  <meta property="og:description" content="QuitNow! is an app for smartphones to help people quit smoking." />
+  <meta property="og:description" content="QuitNow! is an app for smartphones to help people quit smoking" />
   <meta property="fb:app_id" content="156729571066410" />
-  <meta property="og:image" content="http://quitnowapp.com/images/quitnow-facebook-share.png" />
+
+  <meta property="og:image" content="http://quitnowapp.com/images/opengraph/quitnow-full.png" />
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <meta property="og:image" content="http://quitnowapp.com/images/opengraph/quitnow-square-300.png" />
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="300">
+  <meta property="og:image:height" content="300">
+
+  <meta property="og:image" content="http://quitnowapp.com/images/opengraph/quitnow-square-1024.png" />
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
 
   <meta name="twitter:card" content="app">
   <meta name="twitter:site" content="@QuitNowApp">
