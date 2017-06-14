@@ -1,0 +1,23 @@
+{
+  "name": "quitnow-website",
+  "version": "1.0.0",
+  "description": "Here's the lovely QuitNow! public website! Do you want to see it in the real world? Click this! [quitnowapp.com](http://quitnowapp.com)",
+  "scripts": {
+    "less": "lessc --clean-css css/main.less css/main.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fewlaps/quitnow-website.git"
+  },
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/Fewlaps/quitnow-website/issues"
+  },
+  "homepage": "https://github.com/Fewlaps/quitnow-website#readme",
+  "devDependencies": {
+    "less": "^2.7.2",
+    "less-plugin-clean-css": "^1.5.1"
+  }
+}

@@ -1,0 +1,284 @@
+#STYLE{
+	
+	.transition (@s:1s,@func:ease,@delay:0s){
+		-webkit-transition: all @s @func @delay;
+		   -moz-transition: all @s @func;
+		   -moz-transition: all @s @func @delay;
+//			-ms-transition: all @s @func @delay;
+//			 -o-transition: all @s @func @delay;
+				transition: all @s @func;
+				transition: all @s @func @delay;
+	}
+	.transition-multi (@expresion){
+		-webkit-transition: ~'@{expresion}';
+		   -moz-transition: ~'@{expresion}';
+//			-ms-transition: ~'@{expresion}';
+//			 -o-transition: ~'@{expresion}';
+				transition: ~'@{expresion}';
+	}
+	.transition-delay (@s:1s){
+		-webkit-transition-delay: @s;
+		   -moz-transition-delay: @s;
+//			-ms-transition-delay: @s;
+//			 -o-transition-delay: @s;
+				transition-delay: @s;
+	}
+	.transition-duration (@s:1s){
+		-webkit-transition-duration: @s;
+		   -moz-transition-duration: @s;
+//			-ms-transition-duration: @s;
+//			 -o-transition-duration: @s;
+				transition-duration: @s;
+	}
+	.transform (@content){
+		-webkit-transform:@content;
+		   -moz-transform:@content;
+//			-ms-transform:@content;
+//			 -o-transform:@content;
+				transform:@content;
+	}
+	.transform-origin (@origin:50%){
+		-webkit-transform-origin: @origin;
+		   -moz-transform-origin: @origin;
+//			-ms-transform-origin: @origin;
+//			 -o-transform-origin: @origin;
+				transform-origin: @origin;
+	}
+	.transform-preserve (){
+		-webkit-transform-style: ~"preserve-3d";
+		   -moz-transform-style: ~"preserve-3d";
+//			-ms-transform-style: ~"preserve-3d";
+//			 -o-transform-style: ~"preserve-3d";
+				transform-style: ~"preserve-3d";
+	}
+	.transform-backface (){
+		-webkit-backface-visibility: hidden;
+		   -moz-backface-visibility: hidden;
+//			-ms-backface-visibility: hidden;
+//			 -o-backface-visibility: hidden;
+				backface-visibility: hidden;
+	}
+	.perspective (@pers:500px){
+		-webkit-perspective: @pers;
+		   -moz-perspective: @pers;
+			-ms-perspective: @pers;
+			 -o-perspective: @pers;
+				perspective: @pers;
+	}
+	.border-radius (@radius){
+		-webkit-border-radius: @radius;
+		   -moz-border-radius: @radius;
+			-ms-border-radius: @radius;
+			 -o-border-radius: @radius;
+				border-radius: @radius;
+	}
+	.gradiant-li (@deg:90deg,@c1,@c2,@i1:0%,@i2:100%,@add:""){
+		background: ~"@{add}" -webkit-linear-gradient(@deg, @c1 @i1, @c2 @i2);
+		background: ~"@{add}"    -moz-linear-gradient(@deg, @c1 @i1, @c2 @i2);
+//		background: ~"@{add}" 	  -ms-linear-gradient(@deg, @c1 @i1, @c2 @i2);
+//		background: ~"@{add}" 	   -o-linear-gradient(@deg, @c1 @i1, @c2 @i2);
+		background: ~"@{add}" 		  linear-gradient(@deg, @c1 @i1, @c2 @i2);
+	}
+	.gradiant-li-rep (@content){
+		background:	-webkit-repeating-linear-gradient(~"@{content}");
+		background:	   -moz-repeating-linear-gradient(~"@{content}");
+//		background:		-ms-repeating-linear-gradient(~"@{content}");
+//		background:		 -o-repeating-linear-gradient(~"@{content}");
+		background:			repeating-linear-gradient(~"@{content}");
+	}
+	.gradiant-ci (@pos:50%,@c1,@c2,@i1:0%,@i2:100%,@add:""){
+		background: ~"@{add}" -webkit-radial-gradient(@pos, circle, @c1 @i1, @c2 @i2);
+		background: ~"@{add}"    -moz-radial-gradient(@pos, circle, @c1 @i1, @c2 @i2);
+//		background: ~"@{add}" 	  -ms-radial-gradient(@pos, circle, @c1 @i1, @c2 @i2);
+//		background: ~"@{add}" 	   -o-radial-gradient(@pos, circle, @c1 @i1, @c2 @i2);
+		background: ~"@{add}" 		  radial-gradient(@pos, circle, @c1 @i1, @c2 @i2); 
+	}
+	.box-sizing (@type:border-box){
+		-webkit-box-sizing: @type;
+		   -moz-box-sizing: @type;
+//			-ms-box-sizing: @type;
+//			 -o-box-sizing: @type;
+				box-sizing: @type;
+	}
+	.opacity (@opacity,@important:~''){
+		-webkit-opacity: @opacity @important;
+		   -moz-opacity: @opacity @important;
+//			-ms-opacity: @opacity @important;
+//			 -o-opacity: @opacity @important;
+				opacity: @opacity @important;
+	}
+	.opacityIE (@opacity,@important:~''){
+		@IEopacity: @opacity * 100;
+		filter:~'alpha(opacity=@{IEopacity})';
+	}
+	.columns (@cols: 2, @sep: 20px, @border: 0 ){
+		-webkit-column-count: @cols;
+		   -moz-column-count: @cols;
+//			-ms-column-count: @cols;
+//			 -o-column-count: @cols;
+				column-count: @cols;
+		-webkit-column-gap: @sep;
+		   -moz-column-gap: @sep;
+//			-ms-column-gap: @sep;
+//			 -o-column-gap: @sep;
+				column-gap: @sep;
+		-webkit-column-rule: @border;
+		   -moz-column-rule: @border;
+//			-ms-column-rule: @border;
+//			 -o-column-rule: @border;
+				column-rule: @border;
+	}
+	.center-block (@width,@height){
+		position: absolute;
+		width: @width;
+		height: @height;
+		margin-left: (@width / -2);
+		margin-top: (@height / -2);
+		left: 50%;
+		top: 50%;
+
+	}
+}
+
+#ANIMATION{
+	.animation (@name,@s:1s,@rep:1,@func:ease,@delay:0s,@extra:''){
+		-webkit-animation: ~"@{name}" @s @func (@delay + 0.01s) @rep ~"@{extra}";
+		   -moz-animation: ~"@{name}" @s @func (@delay + 0.01s) @rep ~"@{extra}";
+//			-ms-animation: ~"@{name}" @s @func (@delay + 0.01s) @rep ~"@{extra}";
+//			 -o-animation: ~"@{name}" @s @func (@delay + 0.01s) @rep ~"@{extra}";
+				animation: ~"@{name}" @s @func (@delay + 0.01s) @rep ~"@{extra}";
+	}
+	.duration (@s){
+		-webkit-animation-duration: @s;
+		   -moz-animation-duration: @s;
+//			-ms-animation-duration: @s;
+//			 -o-animation-duration: @s;
+				animation-duration: @s;
+
+	}
+	.delay (@s){
+		-webkit-animation-delay: @s;
+		   -moz-animation-delay: @s;
+//			-ms-animation-delay: @s;
+//			 -o-animation-delay: @s;
+				animation-delay: @s;
+
+	}
+	.pause (){
+		-webkit-animation-play-state: paused;
+		   -moz-animation-play-state: paused;
+//			-ms-animation-play-state: paused;
+//			 -o-animation-play-state: paused;
+				animation-play-state: paused;
+	}
+//	.keyframe (@name, @content){
+//		@-webkit-keyframes @name {@content}
+//		   @-moz-keyframes @name {@content}
+//			 	@keyframes @name {@content}
+//	}
+}
+
+#UI{
+	.button-BS (@color){
+		#STYLE>.gradiant-li (0deg,darken(@color,10%),lighten(@color,5%));
+		background-color: @color;
+		border: 1px solid rgba(0, 0, 0, 0.0980392);
+
+		&:hover,
+		&:focus{
+			#STYLE>.gradiant-li (0deg,darken(@color,15%),darken(@color,0%));
+			background-color: darken(@color,5%);
+			border-color: rgba(0, 0, 0, 0.0980392);
+		}
+	}
+	.input-LI (@color,@extra:''){
+		#STYLE>.transition (0.3s);
+		
+		&:hover{
+			box-shadow: 0px 0px 3px fadeout(@color,60%) ~'@{extra}';
+		}
+		&:focus{
+			box-shadow: 0px 0px 3px @color ~'@{extra}';
+		}
+	}
+	#METRO (){
+		@blue:		#00AEDB;
+		@green:		#00B159;
+		@orange:	#F37735;
+		@pink:		#EC098C;
+		@purple:	#7C4199;
+		@red:		#D11141;
+		@yellow:	#FFC425;
+	}
+}
+
+
+//		@-webkit-keyframes {}
+//		   @-moz-keyframes {}
+//			@-ms-keyframes {}
+//			 @-o-keyframes {}
+//			 	@keyframes {}
+
+
+#RESET (){
+	html, body, div, span, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	abbr, address, cite, code,
+	del, dfn, em, img, ins, kbd, q, samp,
+	small, strong, sub, sup, var,
+	b, i,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section, summary,
+	time, mark, audio, video,
+	{
+		margin:0;
+		padding:0;
+		border:0;
+		outline:0;
+		outline: none;
+	}
+	article,aside,details,figcaption,figure,
+	footer,header,hgroup,menu,nav,section { 
+		display:block;
+	}
+}
+
+#RESET- (){
+	html, body, div, span, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	abbr, address, cite, code,
+	del, dfn, em, img, ins, kbd, q, samp,
+	small, strong, sub, sup, var,
+	b, i,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section, summary,
+	time, mark, audio, video,
+	input, textarea, select
+	{
+		margin:0;
+		padding:0;
+		border:0;
+		outline:0;
+		outline: none;
+		
+		#STYLE>.box-sizing ();
+	}
+	article,aside,details,figcaption,figure,
+	footer,header,hgroup,menu,nav,section { 
+		display:block;
+	}
+}
+			
+
+#CLEAR (){
+	.CLEAR{
+		clear: both;
+		display: none;
+	}
+}
