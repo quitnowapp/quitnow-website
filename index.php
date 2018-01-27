@@ -103,7 +103,7 @@
 <meta property="og:title" content="Quitting smoking made easy!" />
 <meta property="og:site_name" content="QuitNow!"/>
 <meta property="og:url" content="https://quitnowapp.com/<?php echo $lang; ?>" />
-<meta property="og:description" content="QuitNow! is an app for smartphones to help people quit smoking" />
+<meta property="og:description" content="<?php t('description'); ?>" />
 <meta property="fb:app_id" content="156729571066410" />
 
 <meta property="og:image" content="https://quitnowapp.com/images/opengraph/quitnow-full.png" />
@@ -123,7 +123,7 @@
 
 <meta name="twitter:card" content="app">
 <meta name="twitter:site" content="@QuitNowApp">
-<meta name="twitter:description" content="QuitNow! is an app for smartphones to help people quit smoking.">
+<meta name="twitter:description" content="<?php t('description'); ?>">
 <meta name="twitter:app:name:iphone" content="QuitNow!">
 <meta name="twitter:app:id:iphone" content="483994930">
 <meta name="twitter:app:name:ipad" content="QuitNow!">
