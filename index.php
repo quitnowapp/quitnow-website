@@ -74,8 +74,8 @@
 <head>
 <meta charset="utf-8">
 <title>QuitNow! - <?php t('slogan'); ?></title>
-<meta name="description" content="QuitNow! is the best app to quit smoking. It features health statistics, achievements to help you engage and a community full of people who is quitting. Get it for free!">
-<meta name="keywords" content="quit smoking, stop smoking">
+<meta name="description" content="<?php t('description'); ?>">
+<meta name="keywords" content="<?php t('keywords'); ?>">
 
 <link rel="icon" type="image/png" href="images/touch/58.png">
 <link rel="shortcut icon" href="images/touch/58.png">
