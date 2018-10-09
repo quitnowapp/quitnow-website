@@ -200,31 +200,31 @@
 <div class="homeCont col col45">
 <ul id="chatting" class="elasticstack">
 <li class="c01">
-<div><img src="images/faces/face_carla.jpg" alt="Chat 01"></div>
+<div><img src="images/faces/face1.jpg" alt="Chat 01"></div>
 <p><?php t('community.message1'); ?></p>
 </li>
 <li class="c02">
-<div><img src="images/faces/face_esteve.jpg" alt="Chat 02"></div>
+<div><img src="images/faces/face2.jpg" alt="Chat 02"></div>
 <p><?php t('community.message2'); ?></p>
 </li>
 <li class="c03">
-<div><img src="images/faces/face_erika.jpg" alt="Chat 03"></div>
+<div><img src="images/faces/face3.jpg" alt="Chat 03"></div>
 <p><?php t('community.message3'); ?></p>
 </li>
 <li class="c01">
-<div><img src="images/faces/face_roc.jpg" alt="Chat 04"></div>
+<div><img src="images/faces/face4.jpg" alt="Chat 04"></div>
 <p><?php t('community.message4'); ?></p>
 </li>
 <li class="c02">
-<div><img src="images/faces/face_carla.jpg" alt="Chat 05"></div>
+<div><img src="images/faces/face1.jpg" alt="Chat 05"></div>
 <p><?php t('community.message5'); ?></p>
 </li>
 <li class="c03">
-<div><img src="images/faces/face_erika.jpg" alt="Chat 06"></div>
+<div><img src="images/faces/face2.jpg" alt="Chat 06"></div>
 <p><?php t('community.message6'); ?></p>
 </li>
 <li class="c02">
-<div><img src="images/faces/face_esteve.jpg" alt="Chat 07"></div>
+<div><img src="images/faces/face3.jpg" alt="Chat 07"></div>
 <p><?php t('community.message7'); ?></p>
 </li>
 </ul>
