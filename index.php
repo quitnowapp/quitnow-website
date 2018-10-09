@@ -132,24 +132,17 @@
 <meta name="twitter:app:id:googleplay" content="com.EAGINsoftware.dejaloYa">
 <meta name="twitter:image" content="https://quitnowapp.com/images/quitnow-twitter-share.png" />
 
-<link rel="apple-touch-icon" sizes="57x57" href="images/touch/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="images/touch/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="images/touch/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="images/touch/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="images/touch/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="images/touch/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="images/touch/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="images/touch/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="images/touch/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="images/touch/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="images/touch/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="images/touch/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="images/touch/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="images/touch/ms-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=42">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=42">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=42">
+<link rel="manifest" href="/site.webmanifest?v=42">
+<link rel="mask-icon" href="/safari-pinned-tab.svg?v=42" color="#3d91e6">
+<link rel="shortcut icon" href="/favicon.ico?v=42">
+<meta name="apple-mobile-web-app-title" content="QuitNow!">
+<meta name="application-name" content="QuitNow!">
+<meta name="msapplication-TileColor" content="#3d91e6">
 <meta name="theme-color" content="#3d91e6">
-
+    
 </head>
 <body>
 
