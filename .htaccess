@@ -1,7 +1,7 @@
 RewriteEngine on
 Options +FollowSymLinks
 
-DirectoryIndex index.php
+DirectoryIndex index.php index.html
 FallbackResource /index.php
 
 Redirect /download /download.php
