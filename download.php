@@ -10,7 +10,7 @@ if ( $iOS || $iPod || $iPhone || $iPad ) {
 	header( 'Location: https://itunes.apple.com/app/quitnow!-quit-smoking/id483994930' );
 	die();
 } else if ( $Android ) {
-	header( 'Location: https://play.google.com/store/apps/details?id=com.EAGINsoftware.dejaloYa&referrer=utm_source%3Dflyer_qr' );
+	header( 'Location: https://play.google.com/store/apps/details?id=com.EAGINsoftware.dejaloYa&referrer=utm_source%3Ddownload_redirect' );
 	die();
 } else { 
 	header( 'Location: http://quitnowapp.com#Downloads' );
