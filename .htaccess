@@ -4,5 +4,6 @@ Options +FollowSymLinks
 DirectoryIndex index.php index.html
 FallbackResource /index.php
 
+Redirect /review /review.php
 Redirect /download /download.php
 Redirect /download.html /download.php
