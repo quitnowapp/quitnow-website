@@ -57,8 +57,6 @@
     T_textdomain($domain);
     T_bind_textdomain_codeset($domain, 'UTF-8');
     
-    //echo T_gettext('first.body');
-    
     function t($name){
         echo T_gettext($name);
     }
@@ -159,8 +157,8 @@
 <a target="_blank" onClick="ga('send', 'event', 'Downloads', 'iOS', 'First page button', 1);" href="https://itunes.apple.com/app/quitnow!-quit-smoking/id483994930"><img src="images/L10n/<?php echo $lang; ?>/app_store.svg" width="150" height="49" alt="<?php t('badge.applestore'); ?>" class="apple"></a>
 <a target="_blank" onClick="ga('send', 'event', 'Downloads', 'Android', 'First page button', 1);" href="https://play.google.com/store/apps/details?id=com.EAGINsoftware.dejaloYa&referrer=utm_source%3Dweb%26utm_medium%3Dlink"><img src="images/L10n/<?php echo $lang; ?>/google_play.svg" width="150" height="49" alt="<?php t('badge.googleplay'); ?>" class="android"></a>
 </span>
-</div><!--
---><div class="screenshots col col55">
+</div>
+<div class="screenshots col col55">
 <div class="screenshots-desktop">
 <img src="images/L10n/<?php echo $lang; ?>/ios_1.png" alt="Stats" class="screen1 desktop screen active">
 <img src="images/L10n/<?php echo $lang; ?>/android_2.png" alt="Community" class="screen2 desktop screen">
@@ -219,8 +217,8 @@
 <p><?php t('community.message7'); ?></p>
 </li>
 </ul>
-</div><!--
---><div class="col col55 onCol-alignLeft">
+</div>
+<div class="col col55 onCol-alignLeft">
 <h2><?php t('community.title'); ?></h2>
 <p class="subtitle">
 <span class="bl bls"><?php t('community.body'); ?></span>
@@ -237,8 +235,8 @@
 <div style="background-image: url('images/achhearth.svg')"></div>
 </div>
 <div class="achievShadow"></div>
-</div><!--
---><div class="col col55 onCol-alignLeft">
+</div>
+<div class="col col55 onCol-alignLeft">
 <h2><?php t('achievements.title'); ?></h2>
 <p class="subtitle">
 <span class="bl bls"><?php t('achievements.body'); ?></span>
@@ -253,8 +251,8 @@
 <span class="number">12</span>
 </div>
 </div>
-</div><!--
---><div class="col col55 onCol-alignLeft">
+</div>
+<div class="col col55 onCol-alignLeft">
 <h2>
 <span class="showOnComplete"><?php t('health.completed.title'); ?></span>
 <span class="hideOnComplete"><?php t('health.loading.title'); ?></span>
@@ -270,8 +268,8 @@
 <div class="section downloads" id="section4">
 <div>
 <div class="worldContainer">
-<div class="valign"></div><!--
---><div class="worldFlags">
+<div class="valign"></div>
+<div class="worldFlags">
 <div class="worldFlagsPos">
 <?php include_once("images/world.svg"); ?>
 <img src="images/flags/1.png" alt="us" class="flag flag-us hidden fadeIn">
@@ -287,8 +285,8 @@
 </div>
 </div>
 </div>
-</div><!--
---><div class="downContainer">
+</div>
+<div class="downContainer">
 <img src="images/logo.png" alt="QuitNow!" class="sxs logom block">
 <img src="images/Quitnow.svg" alt="QuitNow!" class="sxs logoquit block">
 <h2><?php t('last.title'); ?></h2>
