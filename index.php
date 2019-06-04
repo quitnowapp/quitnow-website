@@ -62,12 +62,6 @@
     function t($name){
         echo T_gettext($name);
     }
-    function getAltLinks(){
-        printf(T_gettext('downloads.also'),
-               '<a class="plataforms" target="_blank" onClick="_gaq.push([\'_trackEvent\', \'Downloads\', \'Amazon\']);" href="http://www.amazon.com/Fewlaps-QuitNow/dp/B008LJXY0A">Amazon</a>',
-               '<a class="plataforms" target="_blank" onClick="_gaq.push([\'_trackEvent\', \'Downloads\', \'Windows Phone\']);" href="http://www.windowsphone.com/es-es/store/app/quitnow/b6411424-2432-48cf-a3f7-35e5eb945127">Windows Phone</a>',
-               '<a class="plataforms" target="_blank" onClick="_gaq.push([\'_trackEvent\', \'Downloads\', \'Blackberry\']);" href="http://appworld.blackberry.com/webstore/content/26152876">Blackberry</a>');
-    }
     
     ?><!DOCTYPE html>
 <html>
@@ -165,9 +159,6 @@
 <a target="_blank" onClick="ga('send', 'event', 'Downloads', 'iOS', 'First page button', 1);" href="https://itunes.apple.com/app/quitnow!-quit-smoking/id483994930"><img src="images/L10n/<?php echo $lang; ?>/app_store.svg" width="150" height="49" alt="<?php t('badge.applestore'); ?>" class="apple"></a>
 <a target="_blank" onClick="ga('send', 'event', 'Downloads', 'Android', 'First page button', 1);" href="https://play.google.com/store/apps/details?id=com.EAGINsoftware.dejaloYa&referrer=utm_source%3Dweb%26utm_medium%3Dlink"><img src="images/L10n/<?php echo $lang; ?>/google_play.svg" width="150" height="49" alt="<?php t('badge.googleplay'); ?>" class="android"></a>
 </span>
-<p class="hideOnMobile">
-<?php getAltLinks(); ?>
-</p>
 </div><!--
 --><div class="screenshots col col55">
 <div class="screenshots-desktop">
@@ -308,9 +299,6 @@
 <a target="_blank" onClick="ga('send', 'event', 'Downloads', 'iOS', 'World page button', 3);" href="https://itunes.apple.com/app/quitnow!-quit-smoking/id483994930"><img src="images/L10n/<?php echo $lang; ?>/app_store.svg" width="150" height="49" alt="<?php t('badge.applestore'); ?>" class="apple"></a>
 <a target="_blank" onClick="ga('send', 'event', 'Downloads', 'Android', 'World page button', 3);" href="https://play.google.com/store/apps/details?id=com.EAGINsoftware.dejaloYa&referrer=utm_source%3Dweb%26utm_medium%3Dlink"><img src="images/L10n/<?php echo $lang; ?>/google_play.svg" width="150" height="49" alt="<?php t('badge.googleplay'); ?>" class="android"></a>
 </div>
-<p class="hxs">
-<?php getAltLinks(); ?>
-</p>
 </div>
 <div class="footer">
 <a target="_blank" onClick="ga('send', 'event', 'Footer navigation', 'Merchandising');" href="https://store.quitnowapp.com"><?php t('footer.merchandising'); ?></a>
