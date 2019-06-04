@@ -98,10 +98,10 @@
 <meta property="og:description" content="<?php t('description'); ?>" />
 <meta property="fb:app_id" content="156729571066410" />
 
-<meta property="og:image" content="https://quitnowapp.com/images/opengraph/quitnow-full.png" />
+<meta property="og:image" content="https://quitnowapp.com/images/quitnow-facebook-share.png" />
 <meta property="og:image:type" content="image/png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
+<meta property="og:image:width" content="1910">
+<meta property="og:image:height" content="1000">
 
 <meta property="og:image" content="https://quitnowapp.com/images/opengraph/quitnow-square-300.png" />
 <meta property="og:image:type" content="image/png">
