@@ -299,8 +299,6 @@
 </div>
 </div>
 <div class="footer">
-<a target="_blank" onClick="ga('send', 'event', 'Footer navigation', 'Merchandising');" href="https://store.quitnowapp.com"><?php t('footer.merchandising'); ?></a>
-|
 <a id="TermsShow" target="_blank" onClick="ga('send', 'event', 'Footer navigation', 'Terms of Service');" href="http://quitnowapp.com/terms-of-service/index.html"><?php t('footer.tos'); ?></a>
 |
 <a target="_blank" onClick="ga('send', 'event', 'Footer navigation', 'Press resources');" href="https://quitnowapp.com/press-resources/index.html"><?php t('footer.press'); ?></a>
