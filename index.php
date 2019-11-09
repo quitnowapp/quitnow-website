@@ -115,7 +115,7 @@
 }
 </script>
     
-<meta property="og:title" content="Quitting smoking made easy!" />
+<meta property="og:title" content="<?php t('slogan'); ?>" />
 <meta property="og:site_name" content="QuitNow!"/>
 <meta property="og:url" content="https://quitnowapp.com/<?php echo $lang; ?>" />
 <meta property="og:description" content="<?php t('description'); ?>" />
