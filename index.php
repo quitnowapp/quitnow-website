@@ -92,6 +92,29 @@
 
 <script src="js/main.js"></script>
 
+<script type="application/ld+json">
+{
+"@context": "http://schema.org/",
+"@type": "Product",
+"name": "QuitNow!",
+"image": "https://quitnow.app/images/logo.png",
+"logo": "https://quitnow.app/images/logo.png",
+"description": "<?php t('description'); ?>",
+"brand": {
+  "@type": "Thing",
+  "name": "Fewlaps"
+  },
+"offers": {
+  "@type": "Offer",
+  "price": "0",
+  "priceCurrency": "EUR",
+  "availability": "InStock",
+  "priceValidUntil": "2100-01-01",
+  "url": "https://quitnow.app/download"
+  }
+}
+</script>
+    
 <meta property="og:title" content="Quitting smoking made easy!" />
 <meta property="og:site_name" content="QuitNow!"/>
 <meta property="og:url" content="https://quitnowapp.com/<?php echo $lang; ?>" />
