@@ -323,9 +323,9 @@
 </div>
 </div>
 <div class="footer">
-<a id="TermsShow" target="_blank" onClick="ga('send', 'event', 'Footer navigation', 'Terms of Service');" href="terms-of-service/index.html"><?php t('footer.tos'); ?></a>
+<a id="TermsShow" target="_blank" onClick="ga('send', 'event', 'Footer navigation', 'Terms of Service');" href="terms-of-service/"><?php t('footer.tos'); ?></a>
 |
-<a target="_blank" onClick="ga('send', 'event', 'Footer navigation', 'Press resources');" href="press-resources/index.html"><?php t('footer.press'); ?></a>
+<a target="_blank" onClick="ga('send', 'event', 'Footer navigation', 'Press resources');" href="press-resources/"><?php t('footer.press'); ?></a>
 <div class="powered">
 <a href="https://fewlaps.com" target="_blank">
 <img src="images/fewlaps.png" alt="Fewlaps">
