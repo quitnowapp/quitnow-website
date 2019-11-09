@@ -323,11 +323,11 @@
 </div>
 </div>
 <div class="footer">
-<a id="TermsShow" target="_blank" onClick="ga('send', 'event', 'Footer navigation', 'Terms of Service');" href="http://quitnowapp.com/terms-of-service/index.html"><?php t('footer.tos'); ?></a>
+<a id="TermsShow" target="_blank" onClick="ga('send', 'event', 'Footer navigation', 'Terms of Service');" href="https://quitnowapp.com/terms-of-service/index.html"><?php t('footer.tos'); ?></a>
 |
 <a target="_blank" onClick="ga('send', 'event', 'Footer navigation', 'Press resources');" href="https://quitnowapp.com/press-resources/index.html"><?php t('footer.press'); ?></a>
 <div class="powered">
-<a href="http://fewlaps.com" target="_blank">
+<a href="https://fewlaps.com" target="_blank">
 <img src="images/fewlaps.png" alt="Fewlaps">
 </a>
 </div>
