@@ -172,7 +172,7 @@
 <div id="fullpage">
 <div class="section home hideScreenshots" id="section0">
 <div class="homeCont col col45">
-<img src="images/logo.png" alt="QuitNow!" class=" logom block">
+<img src="images/logo.svg" alt="QuitNow!" class=" logom block">
 <img src="images/Quitnow.svg" alt="QuitNow!" class=" logoquit block">
 <p class="subtitle">
 <?php t('slogan'); ?>
@@ -311,7 +311,7 @@
 </div>
 </div>
 <div class="downContainer">
-<img src="images/logo.png" alt="QuitNow!" class="sxs logom block">
+<img src="images/logo.svg" alt="QuitNow!" class="sxs logom block">
 <img src="images/Quitnow.svg" alt="QuitNow!" class="sxs logoquit block">
 <h2><?php t('last.title'); ?></h2>
 <p class="subtitle">
