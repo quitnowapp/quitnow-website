@@ -328,7 +328,7 @@
 <a target="_blank" onClick="ga('send', 'event', 'Footer navigation', 'Press resources');" href="press-resources/"><?php t('footer.press'); ?></a>
 <div class="powered">
 <a href="https://fewlaps.com" target="_blank">
-<img src="images/fewlaps.svg" alt="Fewlaps">
+<img width="134" height="38" src="images/fewlaps.svg" alt="Fewlaps">
 </a>
 </div>
 </div>
