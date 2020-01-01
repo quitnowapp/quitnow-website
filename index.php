@@ -11,7 +11,7 @@
     $locale = "en_EN";
     
     $browserLang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-    $redirectionableLanguage = array('', 'ca', 'de', 'en','es', 'fr', 'it', 'nl', 'pt', 'ru');
+    $redirectionableLanguage = array('', 'ca', 'de', 'en','es', 'fr', 'it', 'nl', 'pt', 'ru', 'he');
     
     if($lang == ''){
         if(array_search($browserLang, $redirectionableLanguage)){
@@ -40,6 +40,7 @@
         case 'nl': $locale = "nl_NL";break;
         case 'pt': $locale = "pt_PT";break;
         case 'ru': $locale = "ru_RU";break;
+        case 'he': $locale = "he_IL";break;
         default:
             header('Status: 404 Not found', false, 404);
             header("Location: $baseWeb");
