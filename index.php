@@ -77,7 +77,7 @@
 </script>
 
 <script>
-function gtag_report_conversion(url) {
+function gtag_conversion(url) {
   var callback = function () {
     if (typeof(url) != 'undefined') {
       window.location = url;
@@ -193,8 +193,8 @@ function gtag_report_conversion(url) {
 <header>
 <img src="images/Quitnow.svg" class="logo" alt="QuitNow!">
 <span class="stores">
-<a target="_blank" onClick="gtag_report_conversion(); ga('send', 'event', 'Downloads', 'iOS', 'Header button', 1);" href="https://itunes.apple.com/app/quitnow!-quit-smoking/id483994930"><img src="images/L10n/<?php echo $lang; ?>/app_store.svg" width="150" height="49" alt="<?php t('badge.applestore'); ?>" class="apple"></a>
-<a target="_blank" onClick="gtag_report_conversion(); ga('send', 'event', 'Downloads', 'Android', 'Header button', 1);" href="https://play.google.com/store/apps/details?id=com.EAGINsoftware.dejaloYa&referrer=utm_source%3Dweb%26utm_medium%3Dlink"><img src="images/L10n/<?php echo $lang; ?>/google_play.svg" width="150" height="49" alt="<?php t('badge.googleplay'); ?>" class="android"></a>
+<a target="_blank" onClick="gtag_conversion(); gtag('event', 'iOS', {'event_category':'Downloads', 'event_label':'Header button'});" href="https://itunes.apple.com/app/quitnow!-quit-smoking/id483994930"><img src="images/L10n/<?php echo $lang; ?>/app_store.svg" width="150" height="49" alt="<?php t('badge.applestore'); ?>" class="apple"></a>
+<a target="_blank" onClick="gtag_conversion(); gtag('event', 'Android', {'event_category':'Downloads', 'event_label':'Header button' });" href="https://play.google.com/store/apps/details?id=com.EAGINsoftware.dejaloYa&referrer=utm_source%3Dweb%26utm_medium%3Dlink"><img src="images/L10n/<?php echo $lang; ?>/google_play.svg" width="150" height="49" alt="<?php t('badge.googleplay'); ?>" class="android"></a>
 </span>
 </header>
 <div id="fullpage">
@@ -206,8 +206,8 @@ function gtag_report_conversion(url) {
 <?php t('slogan'); ?>
 </p>
 <span class="stores">
-<a target="_blank" onClick="gtag_report_conversion(); ga('send', 'event', 'Downloads', 'iOS', 'First page button', 1);" href="https://itunes.apple.com/app/quitnow!-quit-smoking/id483994930"><img src="images/L10n/<?php echo $lang; ?>/app_store.svg" width="150" height="49" alt="<?php t('badge.applestore'); ?>" class="apple"></a>
-<a target="_blank" onClick="gtag_report_conversion(); ga('send', 'event', 'Downloads', 'Android', 'First page button', 1);" href="https://play.google.com/store/apps/details?id=com.EAGINsoftware.dejaloYa&referrer=utm_source%3Dweb%26utm_medium%3Dlink"><img src="images/L10n/<?php echo $lang; ?>/google_play.svg" width="150" height="49" alt="<?php t('badge.googleplay'); ?>" class="android"></a>
+<a target="_blank" onClick="gtag_conversion(); gtag('event', 'iOS', {'event_category':'Downloads', 'event_label':'First page button' });" href="https://itunes.apple.com/app/quitnow!-quit-smoking/id483994930"><img src="images/L10n/<?php echo $lang; ?>/app_store.svg" width="150" height="49" alt="<?php t('badge.applestore'); ?>" class="apple"></a>
+<a target="_blank" onClick="gtag_conversion(); gtag('event', 'Android', {'event_category':'Downloads', 'event_label':'First page button' });" href="https://play.google.com/store/apps/details?id=com.EAGINsoftware.dejaloYa&referrer=utm_source%3Dweb%26utm_medium%3Dlink"><img src="images/L10n/<?php echo $lang; ?>/google_play.svg" width="150" height="49" alt="<?php t('badge.googleplay'); ?>" class="android"></a>
 </span>
 </div>
 <div class="screenshots col col55">
@@ -346,14 +346,14 @@ function gtag_report_conversion(url) {
 <?php t('last.body'); ?>
 </p>
 <div class="stores">
-<a target="_blank" onClick="gtag_report_conversion();  ga('send', 'event', 'Downloads', 'iOS', 'World page button', 3);" href="https://itunes.apple.com/app/quitnow!-quit-smoking/id483994930"><img src="images/L10n/<?php echo $lang; ?>/app_store.svg" width="150" height="49" alt="<?php t('badge.applestore'); ?>" class="apple"></a>
-<a target="_blank" onClick="gtag_report_conversion();  ga('send', 'event', 'Downloads', 'Android', 'World page button', 3);" href="https://play.google.com/store/apps/details?id=com.EAGINsoftware.dejaloYa&referrer=utm_source%3Dweb%26utm_medium%3Dlink"><img src="images/L10n/<?php echo $lang; ?>/google_play.svg" width="150" height="49" alt="<?php t('badge.googleplay'); ?>" class="android"></a>
+<a target="_blank" onClick="gtag_conversion(); gtag('event', 'iOS', {'event_category':'Downloads', 'event_label':'World page button' });" href="https://itunes.apple.com/app/quitnow!-quit-smoking/id483994930"><img src="images/L10n/<?php echo $lang; ?>/app_store.svg" width="150" height="49" alt="<?php t('badge.applestore'); ?>" class="apple"></a>
+<a target="_blank" onClick="gtag_conversion(); gtag('event', 'Android', {'event_category':'Downloads', 'event_label':'World page button' });" href="https://play.google.com/store/apps/details?id=com.EAGINsoftware.dejaloYa&referrer=utm_source%3Dweb%26utm_medium%3Dlink"><img src="images/L10n/<?php echo $lang; ?>/google_play.svg" width="150" height="49" alt="<?php t('badge.googleplay'); ?>" class="android"></a>
 </div>
 </div>
 <div class="footer">
-<a id="TermsShow" target="_blank" onClick="ga('send', 'event', 'Footer navigation', 'Terms of Service');" href="terms-of-service/"><?php t('footer.tos'); ?></a>
+<a id="TermsShow" target="_blank" onClick="gtag('event', 'Terms of service', {'event_category':'Footer navigation' });" href="terms-of-service/"><?php t('footer.tos'); ?></a>
 |
-<a target="_blank" onClick="ga('send', 'event', 'Footer navigation', 'Press resources');" href="press-resources/"><?php t('footer.press'); ?></a>
+<a target="_blank" onClick="gtag('event', 'Press resources', {'event_category':'Footer navigation' });" href="press-resources/"><?php t('footer.press'); ?></a>
 <div class="powered">
 <a href="https://fewlaps.com" target="_blank">
 <img width="134" height="38" src="images/fewlaps.svg" alt="Fewlaps">
