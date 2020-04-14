@@ -7,3 +7,7 @@ FallbackResource /index.php
 Redirect /review /review.php
 Redirect /download /download.php
 Redirect /download.html /download.php
+
+<filesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
+Header set Cache-Control "max-age=2628000, public"
+</filesMatch>
