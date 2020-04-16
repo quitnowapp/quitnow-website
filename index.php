@@ -182,22 +182,9 @@ function gtag_conversion(url) {
 <meta name="theme-color" content="#3d91e6">
 
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,600,400&subset=latin,latin-ext,cyrillic,greek' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="css/main.css">
-<script src="js/jquery-2.1.3.min.js"></script>
 
-<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
-<script src="js/vendors/jquery.easings.min.js"></script>
-<script type="text/javascript" src="js/vendors/jquery.slimscroll.min.js"></script>
-<script type="text/javascript" src="js/jquery.fullPage.js"></script>
-<script type="text/javascript" src="js/circle-progress.js"></script>
-<script type="text/javascript" src="js/bezier-easing.js"></script>
-
-<link rel="stylesheet" type="text/css" href="css/component.css">
-<script type="text/javascript" src="js/modernizr.custom.js"></script>
-<script type="text/javascript" src="js/draggabilly.pkgd.min.js"></script>
-<script type="text/javascript" src="js/elastiStack.js"></script>
-
-<script src="js/main.js"></script>
+<link rel="stylesheet" type="text/css" href="css/bundle.css">
+<script src="js/bundle.js"></script>
     
 </head>
 <body>
