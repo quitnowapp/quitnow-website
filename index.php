@@ -1,7 +1,9 @@
 <?php
     
+    // base
     $baseWeb = "https://quitnowapp.com/";
     
+    // translations
     require_once('php/gettext.inc');
     
     $url = $_SERVER['REQUEST_URI'];
@@ -60,6 +62,16 @@
     
     function t($name){
         echo T_gettext($name);
+    }
+
+    // variables
+    if ( isset( $_SERVER['HTTP_USER_AGENT'] ) ) {
+      $iOS = stripos( $_SERVER['HTTP_USER_AGENT'], "iOS" )
+        || stripos( $_SERVER['HTTP_USER_AGENT'], "iPod" )
+        || stripos( $_SERVER['HTTP_USER_AGENT'], "iPhone" )
+        || stripos( $_SERVER['HTTP_USER_AGENT'], "iPad" );
+
+      $Android = stripos( $_SERVER['HTTP_USER_AGENT'], "Android" );
     }
     
     ?><!DOCTYPE html>
@@ -230,30 +242,29 @@ function gtag_conversion(url) {
 </span>
 </div>
 <div class="screenshots col col55">
-<div class="screenshots-desktop">
-<img src="images/L10n/<?php echo $lang; ?>/ios_1.png" alt="Stats" class="screen1 desktop screen active">
-<img src="images/L10n/<?php echo $lang; ?>/android_2.png" alt="Community" class="screen2 desktop screen">
-<img src="images/L10n/<?php echo $lang; ?>/ios_2.png" alt="Community" class="screen3 desktop screen">
-<img src="images/L10n/<?php echo $lang; ?>/android_4.png" alt="Achievements" class="screen4 desktop screen">
-<img src="images/L10n/<?php echo $lang; ?>/ios_5.png" alt="Health" class="screen5 desktop screen">
-</div>
-<div class="screenshots-ios">
-<img src="images/L10n/<?php echo $lang; ?>/ios_1.png" alt="Stats" class="screen1 apple screen active">
-<img src="images/L10n/<?php echo $lang; ?>/ios_2.png" alt="Community" class="screen2 apple screen">
-<img src="images/L10n/<?php echo $lang; ?>/ios_3.png" alt="Achievements" class="screen3 apple screen">
-<img src="images/L10n/<?php echo $lang; ?>/ios_4.png" alt="Achievements" class="screen4 apple screen">
-<img src="images/L10n/<?php echo $lang; ?>/ios_5.png" alt="Health" class="screen5 apple screen">
-</div>
-<div class="screenshots-android">
-<img src="images/L10n/<?php echo $lang; ?>/android_1.png" alt="Stats" class="screen1 android screen active">
-<img src="images/L10n/<?php echo $lang; ?>/android_2.png" alt="Community" class="screen2 android screen">
-<img src="images/L10n/<?php echo $lang; ?>/android_3.png" alt="Achievements" class="screen3 android screen">
-<img src="images/L10n/<?php echo $lang; ?>/android_4.png" alt="Achievements" class="screen4 android screen">
-<img src="images/L10n/<?php echo $lang; ?>/android_5.png" alt="Achievements" class="screen5 android screen">
-</div>
-
-<img src="images/arrow-l.png" alt="<?php t('arrow.prev'); ?>" class="arrow arrowL">
-<img src="images/arrow-r.png" alt="<?php t('arrow.next'); ?>" class="arrow arrowR">
+  <div class="screenshots-desktop">
+    <img data-presrc="images/L10n/<?php echo $lang; ?>/ios_1.png" alt="Stats" class="screen1 desktop screen active">
+    <img data-presrc="images/L10n/<?php echo $lang; ?>/android_2.png" alt="Community" class="screen2 desktop screen">
+    <img data-presrc="images/L10n/<?php echo $lang; ?>/ios_2.png" alt="Community" class="screen3 desktop screen">
+    <img data-presrc="images/L10n/<?php echo $lang; ?>/android_4.png" alt="Achievements" class="screen4 desktop screen">
+    <img data-presrc="images/L10n/<?php echo $lang; ?>/ios_5.png" alt="Health" class="screen5 desktop screen">
+  </div>
+  <div class="screenshots-ios">
+    <img data-presrc="images/L10n/<?php echo $lang; ?>/ios_1.png" alt="Stats" class="screen1 apple screen active">
+    <img data-presrc="images/L10n/<?php echo $lang; ?>/ios_2.png" alt="Community" class="screen2 apple screen">
+    <img data-presrc="images/L10n/<?php echo $lang; ?>/ios_3.png" alt="Achievements" class="screen3 apple screen">
+    <img data-presrc="images/L10n/<?php echo $lang; ?>/ios_4.png" alt="Achievements" class="screen4 apple screen">
+    <img data-presrc="images/L10n/<?php echo $lang; ?>/ios_5.png" alt="Health" class="screen5 apple screen">
+  </div>
+  <div class="screenshots-android">
+    <img data-presrc="images/L10n/<?php echo $lang; ?>/android_1.png" alt="Stats" class="screen1 android screen active">
+    <img data-presrc="images/L10n/<?php echo $lang; ?>/android_2.png" alt="Community" class="screen2 android screen">
+    <img data-presrc="images/L10n/<?php echo $lang; ?>/android_3.png" alt="Achievements" class="screen3 android screen">
+    <img data-presrc="images/L10n/<?php echo $lang; ?>/android_4.png" alt="Achievements" class="screen4 android screen">
+    <img data-presrc="images/L10n/<?php echo $lang; ?>/android_5.png" alt="Achievements" class="screen5 android screen">
+  </div>
+  <img src="images/arrow-l.png" alt="<?php t('arrow.prev'); ?>" class="arrow arrowL">
+  <img src="images/arrow-r.png" alt="<?php t('arrow.next'); ?>" class="arrow arrowR">
 </div>
 </div>
 <div class="section chat" id="section1">

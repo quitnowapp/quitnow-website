@@ -22,6 +22,10 @@ function sliderScreenshots(elems){
 	this.elems = elems;
 	this.timeout = null;
 
+	for (var i = elems.length - 1; i >= 0; i--) {
+		elems[i].src = elems[i].dataset.presrc
+	}
+
 	this.next = function(n){
 		var n = n ? n : 1;
 		this.position += n;
