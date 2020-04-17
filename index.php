@@ -262,27 +262,27 @@ function gtag_conversion(url) {
 <p><?php t('community.message1'); ?></p>
 </li>
 <li class="c02">
-<div><img src="images/faces/face2.jpg" alt="Chat 02"></div>
+<div><img data-autoload data-presrc="images/faces/face2.jpg" alt="Chat 02"></div>
 <p><?php t('community.message2'); ?></p>
 </li>
 <li class="c03">
-<div><img src="images/faces/face3.jpg" alt="Chat 03"></div>
+<div><img data-autoload data-presrc="images/faces/face3.jpg" alt="Chat 03"></div>
 <p><?php t('community.message3'); ?></p>
 </li>
 <li class="c01">
-<div><img src="images/faces/face4.jpg" alt="Chat 04"></div>
+<div><img data-autoload data-presrc="images/faces/face4.jpg" alt="Chat 04"></div>
 <p><?php t('community.message4'); ?></p>
 </li>
 <li class="c02">
-<div><img src="images/faces/face1.jpg" alt="Chat 05"></div>
+<div><img data-autoload data-presrc="images/faces/face1.jpg" alt="Chat 05"></div>
 <p><?php t('community.message5'); ?></p>
 </li>
 <li class="c03">
-<div><img src="images/faces/face2.jpg" alt="Chat 06"></div>
+<div><img data-autoload data-presrc="images/faces/face2.jpg" alt="Chat 06"></div>
 <p><?php t('community.message6'); ?></p>
 </li>
 <li class="c02">
-<div><img src="images/faces/face3.jpg" alt="Chat 07"></div>
+<div><img data-autoload data-presrc="images/faces/face3.jpg" alt="Chat 07"></div>
 <p><?php t('community.message7'); ?></p>
 </li>
 </ul>
@@ -298,10 +298,10 @@ function gtag_conversion(url) {
 <div class="col col45 onCol-paddingLeft">
 <div id="achiev">
 <div class="visible" style="background-image: url('images/achday.svg')"></div>
-<div style="background-image: url('images/ach5000.svg')"></div>
-<div style="background-image: url('images/achyear.svg')"></div>
-<div style="background-image: url('images/achmoney.svg')"></div>
-<div style="background-image: url('images/achhearth.svg')"></div>
+<div data-autoload data-prestyle="background-image: url('images/ach5000.svg')"></div>
+<div data-autoload data-prestyle="background-image: url('images/achyear.svg')"></div>
+<div data-autoload data-prestyle="background-image: url('images/achmoney.svg')"></div>
+<div data-autoload data-prestyle="background-image: url('images/achhearth.svg')"></div>
 </div>
 <div class="achievShadow"></div>
 </div>
@@ -336,23 +336,23 @@ function gtag_conversion(url) {
 </div>
 <div class="section downloads" id="section4">
 <div>
-<div class="worldContainer">
-<div class="worldFlags">
-<div class="worldFlagsPos">
-<?php include_once("images/world.svg"); ?>
-<img src="images/flags/1.png" alt="us" class="flag flag-us hidden fadeIn">
-<img src="images/flags/2.png" alt="en" class="flag flag-en hidden fadeIn">
-<img src="images/flags/35.png" alt="de" class="flag flag-de hidden fadeIn">
-<img src="images/flags/40.png" alt="es" class="flag flag-es hidden fadeIn">
-<img src="images/flags/37.png" alt="fr" class="flag flag-fr hidden fadeIn">
-<img src="images/flags/27.png" alt="it" class="flag flag-it hidden fadeIn">
-<img src="images/flags/13.png" alt="ru" class="flag flag-ru hidden fadeIn">
-<img src="images/flags/44.png" alt="ch" class="flag flag-ch hidden fadeIn">
-<img src="images/flags/34.png" alt="gr" class="flag flag-gr hidden fadeIn">
-<img src="images/flags/5.png" alt="tk" class="flag flag-tk hidden fadeIn">
-</div>
-</div>
-</div>
+  <div class="worldContainer">
+    <div class="worldFlags">
+      <div class="worldFlagsPos">
+        <?php include_once("images/world.svg"); ?>
+        <img data-fastautoload data-presrc="images/flags/1.png" alt="us" class="flag flag-us hidden fadeIn">
+        <img data-fastautoload data-presrc="images/flags/2.png" alt="en" class="flag flag-en hidden fadeIn">
+        <img data-fastautoload data-presrc="images/flags/35.png" alt="de" class="flag flag-de hidden fadeIn">
+        <img data-fastautoload data-presrc="images/flags/40.png" alt="es" class="flag flag-es hidden fadeIn">
+        <img data-fastautoload data-presrc="images/flags/37.png" alt="fr" class="flag flag-fr hidden fadeIn">
+        <img data-fastautoload data-presrc="images/flags/27.png" alt="it" class="flag flag-it hidden fadeIn">
+        <img data-fastautoload data-presrc="images/flags/13.png" alt="ru" class="flag flag-ru hidden fadeIn">
+        <img data-fastautoload data-presrc="images/flags/44.png" alt="ch" class="flag flag-ch hidden fadeIn">
+        <img data-fastautoload data-presrc="images/flags/34.png" alt="gr" class="flag flag-gr hidden fadeIn">
+        <img data-fastautoload data-presrc="images/flags/5.png" alt="tk" class="flag flag-tk hidden fadeIn">
+      </div>
+    </div>
+  </div>
 </div>
 <div class="downContainer">
 <img src="images/logo.svg" alt="QuitNow!" class="sxs logom block">
