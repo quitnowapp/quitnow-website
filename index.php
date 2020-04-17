@@ -181,7 +181,7 @@ function gtag_conversion(url) {
 <meta name="msapplication-TileColor" content="#3d91e6">
 <meta name="theme-color" content="#3d91e6">
 
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:700,600,400&subset=latin,latin-ext,cyrillic,greek' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:700,600,400&subset=latin,latin-ext,cyrillic,greek&display=swap' rel='stylesheet' type='text/css'>
 
 <link rel="stylesheet" type="text/css" href="css/bundle.css">
 <script src="js/bundle.js"></script>
