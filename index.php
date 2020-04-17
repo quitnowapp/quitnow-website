@@ -78,32 +78,6 @@
 <html lang="<?php echo $lang; ?>">
 <head>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-38049407-7"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-38049407-7');
-  gtag('config', 'AW-965642934');
-</script>
-
-<script>
-function gtag_conversion(url) {
-  var callback = function () {
-    if (typeof(url) != 'undefined') {
-      window.location = url;
-    }
-  };
-  gtag('event', 'conversion', {
-      'send_to': 'AW-965642934/siEMCNmR2rgBELaVuswD',
-      'transaction_id': '',
-      'event_callback': callback
-  });
-  return false;
-}
-</script>
-
 <meta charset="utf-8">
 <title>QuitNow! - <?php t('slogan'); ?></title>
 <meta name="description" content="<?php t('description'); ?>">
@@ -113,30 +87,6 @@ function gtag_conversion(url) {
 <link rel="shortcut icon" href="images/touch/58.png">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui">
-
-<script type="application/ld+json">
-{
-"@context": "http://schema.org/",
-"@type": "Product",
-"name": "QuitNow!",
-"image": "https://quitnow.app/images/logo.png",
-"logo": "https://quitnow.app/images/logo.png",
-"description": "<?php t('description'); ?>",
-"slogan": "<?php t('slogan'); ?>",
-"brand": {
-  "@type": "Thing",
-  "name": "Fewlaps"
-  },
-"offers": {
-  "@type": "Offer",
-  "price": "0",
-  "priceCurrency": "EUR",
-  "availability": "InStock",
-  "priceValidUntil": "2100-01-01",
-  "url": "https://quitnow.app/download"
-  }
-}
-</script>
     
 <meta property="og:title" content="<?php t('slogan'); ?>" />
 <meta property="og:site_name" content="QuitNow!"/>
@@ -185,6 +135,57 @@ function gtag_conversion(url) {
 
 <link rel="stylesheet" type="text/css" href="css/bundle.css">
 <!-- JS bundle at the end of the code -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-38049407-7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-38049407-7');
+  gtag('config', 'AW-965642934');
+</script>
+
+<script>
+function gtag_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+    'send_to': 'AW-965642934/siEMCNmR2rgBELaVuswD',
+    'transaction_id': '',
+    'event_callback': callback
+  });
+  return false;
+}
+</script>
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "QuitNow!",
+    "image": "https://quitnow.app/images/logo.png",
+    "logo": "https://quitnow.app/images/logo.png",
+    "description": "<?php t('description'); ?>",
+    "slogan": "<?php t('slogan'); ?>",
+    "brand": {
+      "@type": "Thing",
+      "name": "Fewlaps"
+      },
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "EUR",
+      "availability": "InStock",
+      "priceValidUntil": "2100-01-01",
+      "url": "https://quitnow.app/download"
+      }
+  }
+</script>
 
 </head>
 <body>
