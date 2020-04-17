@@ -184,8 +184,8 @@ function gtag_conversion(url) {
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,600,400&subset=latin,latin-ext,cyrillic,greek&display=swap' rel='stylesheet' type='text/css'>
 
 <link rel="stylesheet" type="text/css" href="css/bundle.css">
-<script src="js/bundle.js"></script>
-    
+<!-- JS bundle at the end of the code -->
+
 </head>
 <body>
 
@@ -384,3 +384,5 @@ function gtag_conversion(url) {
 </div>
 </body>
 </html>
+
+<script src="js/bundle.js" defer></script>
