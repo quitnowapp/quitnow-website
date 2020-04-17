@@ -320,4 +320,24 @@ $(document).ready(function() {
 			$('.js-Terms').removeClass('show');
 		}
 	});
+
+	window.addEventListener('DOMContentLoaded', function (e) {
+		function loadImages(elems) {
+			for (var i = elems.length - 1; i >= 0; i--) {
+				if (elems[i].dataset.presrc) {
+					elems[i].src = elems[i].dataset.presrc
+				}
+				if (elems[i].dataset.prestyle) {
+					elems[i].style = elems[i].dataset.prestyle
+				}
+			}
+		}
+
+		setTimeout(function() {
+			loadImages($('[data-fastautoload]'))
+		}, 100)
+		setTimeout(function() {
+			loadImages($('[data-autoload]'))
+		}, 1000)
+	})
 })()
