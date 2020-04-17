@@ -75,7 +75,7 @@
     }
     
     ?><!DOCTYPE html>
-<html>
+<html lang="<?php echo $lang; ?>">
 <head>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38049407-7"></script>
