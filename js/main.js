@@ -12,6 +12,18 @@ var SLIDES = {
 }
 var PREVENT_MOVE = false;
 
+function loadImages(elems) {
+	for (var i = elems.length - 1; i >= 0; i--) {
+		if (elems[i].dataset.presrc) {
+			elems[i].src = elems[i].dataset.presrc
+			elems[i].removeAttribute('data-presrc')
+		}
+		if (elems[i].dataset.prestyle) {
+			elems[i].style = elems[i].dataset.prestyle
+			elems[i].removeAttribute('data-prestyle')
+		}
+	}
+}
 
 // Slider de los screenshots
 function sliderScreenshots(elems){
@@ -22,9 +34,7 @@ function sliderScreenshots(elems){
 	this.elems = elems;
 	this.timeout = null;
 
-	for (var i = elems.length - 1; i >= 0; i--) {
-		elems[i].src = elems[i].dataset.presrc
-	}
+	loadImages(elems)
 
 	this.next = function(n){
 		var n = n ? n : 1;
@@ -322,17 +332,6 @@ $(document).ready(function() {
 	});
 
 	window.addEventListener('DOMContentLoaded', function (e) {
-		function loadImages(elems) {
-			for (var i = elems.length - 1; i >= 0; i--) {
-				if (elems[i].dataset.presrc) {
-					elems[i].src = elems[i].dataset.presrc
-				}
-				if (elems[i].dataset.prestyle) {
-					elems[i].style = elems[i].dataset.prestyle
-				}
-			}
-		}
-
 		setTimeout(function() {
 			loadImages($('[data-fastautoload]'))
 		}, 100)
