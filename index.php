@@ -337,7 +337,6 @@ function gtag_conversion(url) {
 <div class="section downloads" id="section4">
 <div>
 <div class="worldContainer">
-<div class="valign"></div>
 <div class="worldFlags">
 <div class="worldFlagsPos">
 <?php include_once("images/world.svg"); ?>
