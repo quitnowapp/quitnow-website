@@ -368,7 +368,7 @@ function gtag_conversion(url) {
 </div>
 </div>
 <div class="footer">
-<a id="TermsShow" target="_blank" rel="noopener" onClick="gtag('event', 'Terms of service', {'event_category':'Footer navigation' });" href="terms-of-service/"><?php t('footer.tos'); ?></a>
+<a target="_blank" onClick="gtag('event', 'Terms of service', {'event_category':'Footer navigation' });" href="https://tos.quitnow.app"><?php t('footer.tos'); ?></a>
 <div class="powered">
 <a href="https://fewlaps.com" target="_blank" rel="noopener">
 <img width="134" height="38" src="images/fewlaps.svg" alt="Fewlaps">
