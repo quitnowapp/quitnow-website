@@ -1,7 +1,7 @@
 <?php
     
     // base
-    $baseWeb = "https://quitnowapp.com/";
+    $baseWeb = "https://quitnow.app/";
     
     // translations
     require_once('php/gettext.inc');
