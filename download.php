@@ -7,14 +7,19 @@ if ( isset( $_SERVER['HTTP_USER_AGENT'] ) ) {
 	$Android = stripos( $_SERVER['HTTP_USER_AGENT'], "Android" );
 }
 if ( $iOS || $iPod || $iPhone || $iPad ) {
-	header( 'Location: https://itunes.apple.com/app/quitnow!-quit-smoking/id483994930' );
+    $referrer = $_GET['referrer'];
+    if (empty($referrer)){
+       header( 'Location: https://apps.apple.com/app/apple-store/id483994930?pt=820420&ct=Download%20redirect&mt=8' );
+    } else {
+       header( 'Location: https://apps.apple.com/app/apple-store/id483994930?pt=820420&ct=' . $referrer . '&mt=8' );
+    }
 	die();
 } else if ( $Android ) {
     $referrer = $_GET['referrer'];
     if (empty($referrer)){
        header( 'Location: https://play.google.com/store/apps/details?id=com.EAGINsoftware.dejaloYa&referrer=utm_source%3Ddownload_redirect' );
     } else {
-        header( 'Location: https://play.google.com/store/apps/details?id=com.EAGINsoftware.dejaloYa&referrer=utm_source%3D' . $referrer);
+       header( 'Location: https://play.google.com/store/apps/details?id=com.EAGINsoftware.dejaloYa&referrer=utm_source%3D' . $referrer);
     }
 	die();
 } else { 

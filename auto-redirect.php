@@ -7,10 +7,10 @@ if ( isset( $_SERVER['HTTP_USER_AGENT'] ) ) {
 	$Android = stripos( $_SERVER['HTTP_USER_AGENT'], "Android" );
 }
 if ( $iOS || $iPod || $iPhone || $iPad ) {
-	header( 'Location: https://itunes.apple.com/app/quitnow!-quit-smoking/id483994930' );
+	header( 'Location: https://apps.apple.com/app/apple-store/id483994930?pt=820420&ct=auto-redirect&mt=8' );
 	die();
 } else if ( $Android ) {
-	header( 'Location: https://play.google.com/store/apps/details?id=com.EAGINsoftware.dejaloYa&referrer=utm_source%3Dfacebook_web' );
+	header( 'Location: https://play.google.com/store/apps/details?id=com.EAGINsoftware.dejaloYa&referrer=utm_source%3Dauto_redirect' );
 	die();
 } else { 
 	header( 'Location: http://quitnowapp.com' );
