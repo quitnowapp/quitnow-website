@@ -131,6 +131,17 @@
 <meta name="msapplication-TileColor" content="#3d91e6">
 <meta name="theme-color" content="#3d91e6">
 
+<link rel="alternate" hreflang="en" href="https://quitnow.app/en" />
+<link rel="alternate" hreflang="es" href="https://quitnow.app/es" />
+<link rel="alternate" hreflang="fr" href="https://quitnow.app/fr" />
+<link rel="alternate" hreflang="de" href="https://quitnow.app/de" />
+<link rel="alternate" hreflang="it" href="https://quitnow.app/it" />
+<link rel="alternate" hreflang="ca" href="https://quitnow.app/ca" />
+<link rel="alternate" hreflang="pt" href="https://quitnow.app/pt" />
+<link rel="alternate" hreflang="nl" href="https://quitnow.app/nl" />
+<link rel="alternate" hreflang="ru" href="https://quitnow.app/ru" />
+<link rel="alternate" hreflang="he" href="https://quitnow.app/he" />
+
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,600,400&subset=latin,latin-ext,cyrillic,greek&display=swap' rel='stylesheet' type='text/css'>
 
 <link rel="stylesheet" type="text/css" href="css/bundle.css">
