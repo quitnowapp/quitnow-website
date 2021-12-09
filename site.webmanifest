@@ -1,14 +1,14 @@
 {
-    "name": "QuitNow!",
-    "short_name": "QuitNow!",
+    "name": "QuitNow",
+    "short_name": "QuitNow",
     "icons": [
         {
-            "src": "/android-chrome-192x192.png?v=42",
+            "src": "/android-chrome-192x192.png?v=43",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-512x512.png?v=42",
+            "src": "/android-chrome-512x512.png?v=43",
             "sizes": "512x512",
             "type": "image/png"
         }

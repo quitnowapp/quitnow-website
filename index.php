@@ -120,12 +120,12 @@
 <meta name="twitter:app:id:googleplay" content="com.EAGINsoftware.dejaloYa">
 <meta name="twitter:image" content="https://quitnow.app/images/quitnow-twitter-share.png" />
 
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=42">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=42">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=42">
-<link rel="manifest" href="/site.webmanifest?v=42">
-<link rel="mask-icon" href="/safari-pinned-tab.svg?v=42" color="#3d91e6">
-<link rel="shortcut icon" href="/favicon.ico?v=42">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=43">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=43">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=43">
+<link rel="manifest" href="/site.webmanifest?v=43">
+<link rel="mask-icon" href="/safari-pinned-tab.svg?v=43" color="#3d91e6">
+<link rel="shortcut icon" href="/favicon.ico?v=43">
 <meta name="apple-mobile-web-app-title" content="QuitNow">
 <meta name="application-name" content="QuitNow">
 <meta name="msapplication-TileColor" content="#3d91e6">
