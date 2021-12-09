@@ -184,16 +184,14 @@ function gtag_conversion(url) {
     "description": "<?php t('description'); ?>",
     "slogan": "<?php t('slogan'); ?>",
     "brand": {
-      "@type": "Thing",
+      "@type": "Brand",
       "name": "Fewlaps"
+      "url": "https://fewlaps.com"
       },
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "EUR",
-      "availability": "InStock",
-      "priceValidUntil": "2100-01-01",
-      "url": "https://quitnow.app/download"
+    "aggregateRating": {
+      "@type": "aggregateRating",
+      "ratingValue": "4.6",
+      "reviewCount": "61541"
       }
   }
 </script>
