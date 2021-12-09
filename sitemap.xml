@@ -15,6 +15,7 @@
         <xhtml:link href="https://quitnow.app/nl" hreflang="nl" rel="alternate" />
         <xhtml:link href="https://quitnow.app/ru" hreflang="ru" rel="alternate" />
         <xhtml:link href="https://quitnow.app/he" hreflang="he" rel="alternate" />
+        <xhtml:link href="https://quitnow.app/en" hreflang="x-default" rel="alternate" />
     </url>
     <url>
         <loc>https://quitnow.app/es</loc>
@@ -29,6 +30,7 @@
         <xhtml:link href="https://quitnow.app/nl" hreflang="nl" rel="alternate" />
         <xhtml:link href="https://quitnow.app/ru" hreflang="ru" rel="alternate" />
         <xhtml:link href="https://quitnow.app/he" hreflang="he" rel="alternate" />
+        <xhtml:link href="https://quitnow.app/en" hreflang="x-default" rel="alternate" />
     </url>
     <url>
         <loc>https://quitnow.app/fr</loc>
@@ -43,6 +45,7 @@
         <xhtml:link href="https://quitnow.app/nl" hreflang="nl" rel="alternate" />
         <xhtml:link href="https://quitnow.app/ru" hreflang="ru" rel="alternate" />
         <xhtml:link href="https://quitnow.app/he" hreflang="he" rel="alternate" />
+        <xhtml:link href="https://quitnow.app/en" hreflang="x-default" rel="alternate" />
     </url>
     <url>
         <loc>https://quitnow.app/de</loc>
@@ -57,6 +60,7 @@
         <xhtml:link href="https://quitnow.app/nl" hreflang="nl" rel="alternate" />
         <xhtml:link href="https://quitnow.app/ru" hreflang="ru" rel="alternate" />
         <xhtml:link href="https://quitnow.app/he" hreflang="he" rel="alternate" />
+        <xhtml:link href="https://quitnow.app/en" hreflang="x-default" rel="alternate" />
     </url>
     <url>
         <loc>https://quitnow.app/it</loc>
@@ -71,6 +75,7 @@
         <xhtml:link href="https://quitnow.app/nl" hreflang="nl" rel="alternate" />
         <xhtml:link href="https://quitnow.app/ru" hreflang="ru" rel="alternate" />
         <xhtml:link href="https://quitnow.app/he" hreflang="he" rel="alternate" />
+        <xhtml:link href="https://quitnow.app/en" hreflang="x-default" rel="alternate" />
     </url>
     <url>
         <loc>https://quitnow.app/ca</loc>
@@ -85,6 +90,7 @@
         <xhtml:link href="https://quitnow.app/nl" hreflang="nl" rel="alternate" />
         <xhtml:link href="https://quitnow.app/ru" hreflang="ru" rel="alternate" />
         <xhtml:link href="https://quitnow.app/he" hreflang="he" rel="alternate" />
+        <xhtml:link href="https://quitnow.app/en" hreflang="x-default" rel="alternate" />
     </url>
     <url>
         <loc>https://quitnow.app/pt</loc>
@@ -99,6 +105,7 @@
         <xhtml:link href="https://quitnow.app/nl" hreflang="nl" rel="alternate" />
         <xhtml:link href="https://quitnow.app/ru" hreflang="ru" rel="alternate" />
         <xhtml:link href="https://quitnow.app/he" hreflang="he" rel="alternate" />
+        <xhtml:link href="https://quitnow.app/en" hreflang="x-default" rel="alternate" />
     </url>
     <url>
         <loc>https://quitnow.app/nl</loc>
@@ -113,6 +120,7 @@
         <xhtml:link href="https://quitnow.app/nl" hreflang="nl" rel="alternate" />
         <xhtml:link href="https://quitnow.app/ru" hreflang="ru" rel="alternate" />
         <xhtml:link href="https://quitnow.app/he" hreflang="he" rel="alternate" />
+        <xhtml:link href="https://quitnow.app/en" hreflang="x-default" rel="alternate" />
     </url>
     <url>
         <loc>https://quitnow.app/ru</loc>
@@ -127,6 +135,7 @@
         <xhtml:link href="https://quitnow.app/nl" hreflang="nl" rel="alternate" />
         <xhtml:link href="https://quitnow.app/ru" hreflang="ru" rel="alternate" />
         <xhtml:link href="https://quitnow.app/he" hreflang="he" rel="alternate" />
+        <xhtml:link href="https://quitnow.app/en" hreflang="x-default" rel="alternate" />
     </url>
     <url>
         <loc>https://quitnow.app/he</loc>
@@ -141,5 +150,6 @@
         <xhtml:link href="https://quitnow.app/nl" hreflang="nl" rel="alternate" />
         <xhtml:link href="https://quitnow.app/ru" hreflang="ru" rel="alternate" />
         <xhtml:link href="https://quitnow.app/he" hreflang="he" rel="alternate" />
+        <xhtml:link href="https://quitnow.app/en" hreflang="x-default" rel="alternate" />
     </url>
 </urlset>
