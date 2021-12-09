@@ -79,7 +79,7 @@
 <head>
 
 <meta charset="utf-8">
-<title>QuitNow! - <?php t('slogan'); ?></title>
+<title>QuitNow - <?php t('slogan'); ?></title>
 <meta name="description" content="<?php t('description'); ?>">
 <meta name="keywords" content="<?php t('keywords'); ?>">
 
@@ -89,22 +89,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui">
     
 <meta property="og:title" content="<?php t('slogan'); ?>" />
-<meta property="og:site_name" content="QuitNow!"/>
-<meta property="og:url" content="https://quitnowapp.com/<?php echo $lang; ?>" />
+<meta property="og:site_name" content="QuitNow"/>
+<meta property="og:url" content="https://quitnow.app/<?php echo $lang; ?>" />
 <meta property="og:description" content="<?php t('description'); ?>" />
 <meta property="fb:app_id" content="156729571066410" />
 
-<meta property="og:image" content="https://quitnowapp.com/images/quitnow-facebook-share.png" />
+<meta property="og:image" content="https://quitnow.app/images/quitnow-facebook-share.png" />
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1910">
 <meta property="og:image:height" content="1000">
 
-<meta property="og:image" content="https://quitnowapp.com/images/opengraph/quitnow-square-300.png" />
+<meta property="og:image" content="https://quitnow.app/images/opengraph/quitnow-square-300.png" />
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="300">
 <meta property="og:image:height" content="300">
 
-<meta property="og:image" content="https://quitnowapp.com/images/opengraph/quitnow-square-1024.png" />
+<meta property="og:image" content="https://quitnow.app/images/opengraph/quitnow-square-1024.png" />
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1024">
 <meta property="og:image:height" content="1024">
@@ -112,13 +112,13 @@
 <meta name="twitter:card" content="app">
 <meta name="twitter:site" content="@QuitNowApp">
 <meta name="twitter:description" content="<?php t('description'); ?>">
-<meta name="twitter:app:name:iphone" content="QuitNow!">
+<meta name="twitter:app:name:iphone" content="QuitNow">
 <meta name="twitter:app:id:iphone" content="483994930">
-<meta name="twitter:app:name:ipad" content="QuitNow!">
+<meta name="twitter:app:name:ipad" content="QuitNow">
 <meta name="twitter:app:id:ipad" content="483994930">
-<meta name="twitter:app:name:googleplay" content="QuitNow!">
+<meta name="twitter:app:name:googleplay" content="QuitNow">
 <meta name="twitter:app:id:googleplay" content="com.EAGINsoftware.dejaloYa">
-<meta name="twitter:image" content="https://quitnowapp.com/images/quitnow-twitter-share.png" />
+<meta name="twitter:image" content="https://quitnow.app/images/quitnow-twitter-share.png" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=42">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=42">
@@ -126,8 +126,8 @@
 <link rel="manifest" href="/site.webmanifest?v=42">
 <link rel="mask-icon" href="/safari-pinned-tab.svg?v=42" color="#3d91e6">
 <link rel="shortcut icon" href="/favicon.ico?v=42">
-<meta name="apple-mobile-web-app-title" content="QuitNow!">
-<meta name="application-name" content="QuitNow!">
+<meta name="apple-mobile-web-app-title" content="QuitNow">
+<meta name="application-name" content="QuitNow">
 <meta name="msapplication-TileColor" content="#3d91e6">
 <meta name="theme-color" content="#3d91e6">
 
@@ -167,7 +167,7 @@ function gtag_conversion(url) {
   {
     "@context": "http://schema.org/",
     "@type": "Product",
-    "name": "QuitNow!",
+    "name": "QuitNow",
     "image": "https://quitnow.app/images/logo.png",
     "logo": "https://quitnow.app/images/logo.png",
     "description": "<?php t('description'); ?>",
@@ -210,7 +210,7 @@ function gtag_conversion(url) {
 </script>
     
 <header>
-<img src="images/Quitnow.svg" class="logo" alt="QuitNow!">
+<img src="images/Quitnow.svg" class="logo" alt="QuitNow">
 <span class="stores">
 <a target="_blank" rel="noopener" onClick="gtag_conversion(); gtag('event', 'iOS', {'event_category':'Downloads', 'event_label':'Header button'});" href="https://apps.apple.com/app/apple-store/id483994930?pt=820420&ct=QuitNow%20Web&mt=8"><img src="images/L10n/<?php echo $lang; ?>/app_store.svg" width="150" height="49" alt="<?php t('badge.applestore'); ?>" class="apple"></a>
 <a target="_blank" rel="noopener" onClick="gtag_conversion(); gtag('event', 'Android', {'event_category':'Downloads', 'event_label':'Header button' });" href="https://play.google.com/store/apps/details?id=com.EAGINsoftware.dejaloYa&referrer=utm_source%3Dweb%26utm_medium%3Dlink"><img src="images/L10n/<?php echo $lang; ?>/google_play.svg" width="150" height="49" alt="<?php t('badge.googleplay'); ?>" class="android"></a>
@@ -219,8 +219,8 @@ function gtag_conversion(url) {
 <div id="fullpage">
 <div class="section home hideScreenshots" id="section0">
 <div class="homeCont col col45">
-<img src="images/logo.svg" alt="QuitNow!" class=" logom block">
-<img src="images/Quitnow.svg" alt="QuitNow!" class=" logoquit block">
+<img src="images/logo.svg" alt="QuitNow" class=" logom block">
+<img src="images/Quitnow.svg" alt="QuitNow" class=" logoquit block">
 <p class="subtitle">
 <?php t('slogan'); ?>
 </p>
@@ -356,8 +356,8 @@ function gtag_conversion(url) {
   </div>
 </div>
 <div class="downContainer">
-<img src="images/logo.svg" alt="QuitNow!" class="sxs logom block">
-<img src="images/Quitnow.svg" alt="QuitNow!" class="sxs logoquit block">
+<img src="images/logo.svg" alt="QuitNow" class="sxs logom block">
+<img src="images/Quitnow.svg" alt="QuitNow" class="sxs logoquit block">
 <h2><?php t('last.title'); ?></h2>
 <p class="subtitle">
 <?php t('last.body'); ?>
