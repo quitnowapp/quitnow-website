@@ -183,6 +183,7 @@ function gtag_conversion(url) {
     "logo": "https://quitnow.app/images/logo.png",
     "description": "<?php t('description'); ?>",
     "slogan": "<?php t('slogan'); ?>",
+	"sku": "quitnow",
     "brand": {
       "@type": "Brand",
       "name": "Fewlaps",
