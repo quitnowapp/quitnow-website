@@ -192,7 +192,7 @@ function gtag_conversion(url) {
       "@type": "aggregateRating",
       "ratingValue": "4.6",
       "reviewCount": "61541"
-      }
+      },
     "offers": {
       "@type": "Offer",
       "price": "0",
