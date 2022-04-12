@@ -386,7 +386,8 @@ function gtag_conversion(url) {
 </div>
 </div>
 <div class="footer">
-<a target="_blank" onClick="gtag('event', 'Terms of service', {'event_category':'Footer navigation' });" href="https://tos.quitnow.app"><?php t('footer.tos'); ?></a>
+<a target="_blank" onClick="gtag('event', 'Terms of service', {'event_category':'Footer navigation' });" href="https://tos.quitnow.app/eula"><?php t('footer.tos'); ?></a>
+<a target="_blank" onClick="gtag('event', 'Privacy Policy', {'event_category':'Footer navigation' });" href="https://tos.quitnow.app/privacypolicy"><?php t('footer.privacy'); ?></a>
 <a target="_blank" onClick="gtag('event', 'Press Resources', {'event_category':'Footer navigation' });" href="https://press.quitnow.app"><?php t('footer.press'); ?></a>
 <div class="powered">
 <a href="https://fewlaps.com" target="_blank" rel="noopener">
